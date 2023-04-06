@@ -67,4 +67,3 @@ class IterablePageRankDiGraph(PageRankDiGraph):
     def __iter__(self):
         return PageRankIterator(self, self.iteration_limit, self.jump_prob)
 
-# Implement class IterablePageRankDiGraph from scratch here!
